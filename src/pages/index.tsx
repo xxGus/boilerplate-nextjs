@@ -1,3 +1,5 @@
-export default function Home({ title = 'Test' }) {
-  return <>{title}</>
+import Main from 'components/Main'
+
+export default function Home() {
+  return <Main />
 }
